@@ -8,5 +8,8 @@
 import UIKit
 
 class ProfileView: UIView {
-
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var userBirthDateLabel: UILabel!
+    @IBOutlet weak var userCityLabel: UILabel!
+    @IBOutlet weak var textView: UITextView!
 }

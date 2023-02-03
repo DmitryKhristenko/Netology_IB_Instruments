@@ -58,22 +58,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAG-LV-j1v" userLabel="infoButton">
-                                <rect key="frame" x="111" y="324" width="193" height="33.5"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.91372549020000005" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.93333333333333335" green="0.9137254901960784" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Нажми меня">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
-                                    <color key="baseForegroundColor" systemColor="labelColor"/>
-                                    <color key="baseBackgroundColor" red="0.93333333330000001" green="0.91372549020000005" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="pushMeButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Oqj-DG-LQX"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="tga-Lh-Sv4">
-                                <rect key="frame" x="20" y="367.5" width="374" height="474.5"/>
+                                <rect key="frame" x="20" y="339" width="374" height="503"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -84,25 +70,17 @@
                         <viewLayoutGuide key="safeArea" id="qwV-kp-CPE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tga-Lh-Sv4" firstAttribute="leading" secondItem="qwV-kp-CPE" secondAttribute="leading" constant="20" id="3VM-hp-MjP"/>
-                            <constraint firstItem="tga-Lh-Sv4" firstAttribute="trailing" secondItem="qwV-kp-CPE" secondAttribute="trailing" constant="-20" id="6nw-0w-HTq"/>
                             <constraint firstItem="fMh-vC-LYT" firstAttribute="top" secondItem="qwV-kp-CPE" secondAttribute="top" constant="20" id="7kG-9B-6w7"/>
+                            <constraint firstItem="tga-Lh-Sv4" firstAttribute="leading" secondItem="qwV-kp-CPE" secondAttribute="leading" constant="20" id="Bde-F3-7fq"/>
                             <constraint firstItem="Ku4-vk-LfN" firstAttribute="top" secondItem="fMh-vC-LYT" secondAttribute="top" id="ChT-Wa-lRs"/>
-                            <constraint firstItem="tga-Lh-Sv4" firstAttribute="bottom" secondItem="qwV-kp-CPE" secondAttribute="bottom" constant="-20" id="EzQ-Yu-OmS"/>
-                            <constraint firstItem="mAG-LV-j1v" firstAttribute="leading" secondItem="qwV-kp-CPE" secondAttribute="leading" constant="111" id="LRx-2b-E5c"/>
-                            <constraint firstItem="tga-Lh-Sv4" firstAttribute="top" secondItem="mAG-LV-j1v" secondAttribute="bottom" constant="10" id="Maq-MP-sQ0"/>
-                            <constraint firstItem="qwV-kp-CPE" firstAttribute="trailing" secondItem="mAG-LV-j1v" secondAttribute="trailing" constant="110" id="Qw1-U4-wgl"/>
+                            <constraint firstItem="qwV-kp-CPE" firstAttribute="bottom" secondItem="tga-Lh-Sv4" secondAttribute="bottom" constant="20" id="c9K-K1-Uv0"/>
+                            <constraint firstItem="tga-Lh-Sv4" firstAttribute="top" secondItem="fMh-vC-LYT" secondAttribute="bottom" constant="30" id="fUk-AQ-0CU"/>
                             <constraint firstItem="fMh-vC-LYT" firstAttribute="leading" secondItem="qwV-kp-CPE" secondAttribute="leading" constant="20" id="mgo-8E-thR"/>
-                            <constraint firstItem="mAG-LV-j1v" firstAttribute="top" secondItem="fMh-vC-LYT" secondAttribute="bottom" constant="15" id="nNn-OO-4wU"/>
+                            <constraint firstItem="qwV-kp-CPE" firstAttribute="trailing" secondItem="tga-Lh-Sv4" secondAttribute="trailing" constant="20" id="sw2-40-vxj"/>
                             <constraint firstItem="Ku4-vk-LfN" firstAttribute="trailing" secondItem="qwV-kp-CPE" secondAttribute="trailing" constant="-20" id="wQY-Hb-kkU"/>
                             <constraint firstItem="Ku4-vk-LfN" firstAttribute="leading" secondItem="fMh-vC-LYT" secondAttribute="trailing" constant="20" id="wVX-Hn-l05"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="userBirthDateLabel" destination="zDk-Ik-LLM" id="KpW-dj-Of2"/>
-                        <outlet property="userCityLabel" destination="0VK-FM-Tfs" id="Nei-AO-vHu"/>
-                        <outlet property="userNameLabel" destination="M2k-yl-VrW" id="NIf-ag-1L3"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
