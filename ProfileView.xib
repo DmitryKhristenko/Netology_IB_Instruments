@@ -83,6 +83,7 @@
                 <outlet property="userBirthDateLabel" destination="3j1-7i-fJq" id="OGn-xx-S5n"/>
                 <outlet property="userCityLabel" destination="G49-Ks-cUD" id="MnU-a0-VOU"/>
                 <outlet property="userNameLabel" destination="1o8-Ms-ZIl" id="Kxp-gM-BiP"/>
+                <outlet property="userPhoto" destination="hEB-Jw-F10" id="xzc-Bv-8um"/>
             </connections>
             <point key="canvasLocation" x="71.200000000000003" y="-43.628185907046479"/>
         </view>
