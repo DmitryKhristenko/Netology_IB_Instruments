@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -64,16 +64,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erx-wY-sal" userLabel="infoButton">
-                    <rect key="frame" x="104" y="250" width="193" height="33.5"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="tintColor" red="0.93333333330000001" green="0.91372549020000005" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Нажми меня">
-                        <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
-                        <color key="baseForegroundColor" systemColor="labelColor"/>
-                    </buttonConfiguration>
-                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -88,7 +78,14 @@
                 <constraint firstItem="hEB-Jw-F10" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="pvX-7y-vpb"/>
                 <constraint firstItem="dc4-zk-TCQ" firstAttribute="top" secondItem="hEB-Jw-F10" secondAttribute="top" id="wZI-Z2-ZHV"/>
             </constraints>
-            <point key="canvasLocation" x="72.307692307692307" y="-43.009478672985779"/>
+            <connections>
+                <outlet property="textView" destination="CAg-59-MjN" id="G5I-rM-IBa"/>
+                <outlet property="userBirthDateLabel" destination="3j1-7i-fJq" id="OGn-xx-S5n"/>
+                <outlet property="userCityLabel" destination="G49-Ks-cUD" id="MnU-a0-VOU"/>
+                <outlet property="userNameLabel" destination="1o8-Ms-ZIl" id="Kxp-gM-BiP"/>
+                <outlet property="userPhoto" destination="hEB-Jw-F10" id="xzc-Bv-8um"/>
+            </connections>
+            <point key="canvasLocation" x="71.200000000000003" y="-43.628185907046479"/>
         </view>
     </objects>
     <resources>
